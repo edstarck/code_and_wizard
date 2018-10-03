@@ -41,7 +41,7 @@ var getWizardHeight = function() {
 фигурки мага находился по середине игрового поля.
 */
 var getWizardX = function(width) {
-  return width / 2 - wizardWidth;
+  return width * 0.5 - wizardWidth;
 };
 
 /** 
@@ -55,5 +55,5 @@ var getWizardX = function(width) {
 
 var getWizardY = function(height) {
   var wizardHeight = getWizardHeight();
-  return height / 3 - wizardHeight;
+  return height * 0.7 - wizardHeight;
 };
